@@ -91,16 +91,16 @@ div[class*=box] {
 }
 
 .btn {
-	line-height: 50px;
-	height: 50px;
-	text-align:center;
+    border-radius: 0;
+    margin: 5px 0;
+    width: 100%;
     padding: 12px 40px;
-	width: 150px;
-	cursor: pointer;
+    transition: ease;
 }
 
 .btn-three {
     color: #000000;
+	margin: auto;
 	transition: all 0.5s;
 	position: relative;
 	padding: 12px 40px;
